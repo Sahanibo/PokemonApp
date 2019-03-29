@@ -13,6 +13,7 @@ Réalisation d'une application mobile en utilisant Recyclerview pour faire une l
 - RecyclerView
 - API REST
 - Deux Activity
+- Architecture MVC
 
 <B> Fonctionalitées </B>
 
