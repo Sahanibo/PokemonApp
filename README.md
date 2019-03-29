@@ -3,7 +3,6 @@ Projet
 
 <B>PROJET PROGRAMMATION MOBILE</B>
 
-<B>Présentation</B>
 
 <B>Présentation du projet</B>
 
