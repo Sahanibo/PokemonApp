@@ -39,10 +39,9 @@ public class MainControler {
 
 
         RestPokemonApi restApi = retrofit.create(RestPokemonApi.class);
-
-
         Call<RestPokemonResponse> call = restApi.getListPokemon();
         call.enqueue(new Callback<RestPokemonResponse>() {
+
             @Override
             public void onResponse(Call<RestPokemonResponse> call, Response<RestPokemonResponse> response) {
                 RestPokemonResponse restPokemonResponse = response.body();

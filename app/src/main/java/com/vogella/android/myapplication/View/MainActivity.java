@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 
 import com.vogella.android.myapplication.Controler.MainControler;
 import com.vogella.android.myapplication.Model.Pokemon;
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     private MainControler controler;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         controler = new MainControler(this);
         controler.onCreate();
+
     }
 
 
